@@ -43,7 +43,7 @@ def print_last_operations(operations, count=5):
 
     for operation in last_operations:
         print(format_operation(operation))
-        print()  # Пустая строка между операциями
+        print()  
 
 
 if __name__ == "__main__":
